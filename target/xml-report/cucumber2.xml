@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="185.463">
+    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile" time="22.042">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manger_login_test" name="TC_02_reservation_manager_profile" time="55.151">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager2".......................................passed
+And user enters manager_password "Manager2!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager2" is displayed....................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manger_login_test" name="TC_03_reservation_manager_profile" time="19.646">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager3".......................................passed
+And user enters manager_password "Manager3!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager3" is displayed....................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Finding product on google search" name="TC01_iPhone Search" time="7.999">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "iPhone"..............................................passed
+Then verify the result has "iPhone".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Finding product on google search" name="TC01_iPhone Search 2" time="9.231">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "bmw".................................................passed
+Then verify the result has "bmw"............................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Finding product on google search" name="TC01_iPhone Search 3" time="8.166">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "bmw".................................................passed
+Then verify the result has "bmw"............................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manager should create a reservation" name="TC01_manager_should_create_hotel_reservation" time="62.201">
+        <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: bootbox-body' (tried for 3 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+And user navigates to create_room_reservation_page..........................passed
+And user enters the IDUser..................................................passed
+And user enters the IDHotel.................................................passed
+And user enters the price...................................................passed
+And user enters the date_start..............................................passed
+And user enters the date_end................................................passed
+And user enters the adult_amount............................................passed
+And user enters the children_amount.........................................passed
+And user enters the contact_name............................................passed
+And user enters the contact_phone...........................................passed
+And user enters the contact_email...........................................passed
+And user enters the notes...................................................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message......................................failed
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: bootbox-body' (tried for 3 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:84)
+	at stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:127)
+	at ✽.user verifies the success_message(file:///C:/Users/Salak/IdeaProjects/cucumber-framework-21/./src/test/resources/features/day19_room_reservation_1.feature:26)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".bootbox\-body"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ME305BT', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Salak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 35e0647d0e1060f96b1f786cd9a198e1
+*** Element info: {Using=class name, value=bootbox-body}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:84)
+	at stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:127)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

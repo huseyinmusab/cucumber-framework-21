@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="151.591">
+    <testcase classname="Finding product on google search" name="TC01_paris_search" time="13.561">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "paris"...............................................passed
+Then verify the result has "paris"..........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Finding product on google search" name="TC02_london_search" time="8.931">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "london"..............................................passed
+Then verify the result has "london".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Finding product on google search" name="TC03_berlin_search" time="7.75">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "berlin"..............................................passed
+Then verify the result has "berlin".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Finding product on google search" name="TC04_ankara_search" time="8.75">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "ankara"..............................................passed
+Then verify the result has "ankara".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Finding product on google search" name="TC05_baku_search" time="6.818">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "baku"................................................passed
+Then verify the result has "baku"...........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_world_capitals" time="8.361">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "paris"...............................................passed
+Then verify the result has "paris"..........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_world_capitals_2" time="5.992">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "london"..............................................passed
+Then verify the result has "london".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_world_capitals_3" time="6.174">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "berlin"..............................................passed
+Then verify the result has "berlin".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_world_capitals_4" time="5.302">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "ankara"..............................................passed
+Then verify the result has "ankara".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_world_capitals_5" time="5.902">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "baku"................................................passed
+Then verify the result has "baku"...........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manage_login_test" name="TC_01_reservation_manager_profile" time="19.908">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manage_login_test" name="TC_01_reservation_manager_profile_2" time="16.136">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager2".......................................passed
+And user enters manager_password "Manager2!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager2" is displayed....................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manage_login_test" name="TC_01_reservation_manager_profile_3" time="18.842">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager3".......................................passed
+And user enters manager_password "Manager3!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager3" is displayed....................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manage_login_test" name="TC_02_reservation_admin_profile" time="17.803">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "admin"..........................................passed
+And user enters manager_password "Techproed123!"............................passed
+And clicks on login button..................................................passed
+And verify login "admin" is displayed.......................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

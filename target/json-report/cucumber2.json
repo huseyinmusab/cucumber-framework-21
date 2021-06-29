@@ -1,0 +1,967 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-29T11:01:43.891Z",
+        "line": 3,
+        "name": "TC_01_reservation_manager_profile",
+        "description": "",
+        "id": "manger-login-test;tc-01-reservation-manager-profile",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13095651800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130026100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters manager_id \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106997200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters manager_password \"Manager1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7424869200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57000500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify login \"manager\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1193269400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manager_login_long_way"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:02:06.068Z",
+        "line": 11,
+        "name": "TC_02_reservation_manager_profile",
+        "description": "",
+        "id": "manger-login-test;tc-02-reservation-manager-profile",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7952732300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters manager_id \"manager2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager2\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147999500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters manager_password \"Manager2!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager2!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45756551400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224997600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify login \"manager2\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager2\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 912605400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manager_login_long_way"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:03:01.242Z",
+        "line": 19,
+        "name": "TC_03_reservation_manager_profile",
+        "description": "",
+        "id": "manger-login-test;tc-03-reservation-manager-profile",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10140805200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142982200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters manager_id \"manager3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager3\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142999400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters manager_password \"Manager3!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager3!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8004480100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98003900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "verify login \"manager3\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager3\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1109994000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manager_login_long_way"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Manger_login_test",
+    "description": "",
+    "id": "manger-login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/day19_manager_login_longway_parametrized.feature",
+    "tags": [
+      {
+        "name": "@manager_login_long_way",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 25
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4491672900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:03:20.934Z",
+        "line": 6,
+        "name": "TC01_iPhone Search",
+        "description": "",
+        "id": "finding-product-on-google-search;tc01-iphone-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1567791500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user search for \"iPhone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iPhone\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35010100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the result has \"iPhone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iPhone\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1903198300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@google_search_parameters"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5776000600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:03:28.961Z",
+        "line": 13,
+        "name": "TC01_iPhone Search",
+        "description": "",
+        "id": "finding-product-on-google-search;tc01-iphone-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2348998800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user search for \"bmw\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bmw\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43995000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the result has \"bmw\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bmw\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1047995400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@google_search_parameters"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4841521400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:03:38.203Z",
+        "line": 21,
+        "name": "TC01_iPhone Search",
+        "description": "",
+        "id": "finding-product-on-google-search;tc01-iphone-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2076813900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user search for \"bmw\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bmw\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51998200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "verify the result has \"bmw\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bmw\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1195000400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@google_search_parameters"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Finding product on google search",
+    "description": "",
+    "id": "finding-product-on-google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/day19_parametrizing_ff.feature",
+    "tags": [
+      {
+        "name": "@google_search_parameters",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 27
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-29T11:03:46.440Z",
+        "line": 3,
+        "name": "TC01_manager_should_create_hotel_reservation",
+        "description": "",
+        "id": "manager-should-create-a-reservation;tc01-manager-should-create-hotel-reservation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8531001400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173001300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters manager_id \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters manager_password \"Manager1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14114999700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254009600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify login \"manager\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4444997400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user navigates to create_room_reservation_page",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_navigates_to_create_room_reservation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368012400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the IDUser",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_id_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294999100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the IDHotel",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_id_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145000700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters the price",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 471002000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the date_start",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_start()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 419009500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters the date_end",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_end()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164991000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the adult_amount",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_adult_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147999900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters the children_amount",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_children_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 852005100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters the contact_name",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232994900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters the contact_phone",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_phone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273008100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters the contact_email",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153990800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters the notes",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_notes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192003200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on the approved checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_approved_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278996300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on the is_paid checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_is_paid_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343998900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on the save_button",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.className: bootbox-body\u0027 (tried for 3 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:84)\r\n\tat stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:127)\r\n\tat ✽.user verifies the success_message(file:///C:/Users/Salak/IdeaProjects/cucumber-framework-21/./src/test/resources/features/day19_room_reservation_1.feature:26)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".bootbox\\-body\"}\n  (Session info: chrome\u003d91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-ME305BT\u0027, ip: \u0027192.168.0.30\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.10\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\Salak\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 35e0647d0e1060f96b1f786cd9a198e1\n*** Element info: {Using\u003dclass name, value\u003dbootbox-body}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:84)\r\n\tat stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:127)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\r\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\r\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n",
+              "duration": 30107691900,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "user verifies the success_message",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@room_reservation_1"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Manager should create a reservation",
+    "description": "",
+    "id": "manager-should-create-a-reservation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/day19_room_reservation_1.feature",
+    "tags": [
+      {
+        "name": "@room_reservation_1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 21
+        }
+      }
+    ]
+  }
+]

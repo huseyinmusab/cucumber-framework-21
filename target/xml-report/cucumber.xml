@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="50.983">
+    <testcase classname="Manager should create a reservation" name="TC01_manager_should_create_hotel_reservation" time="50.556">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+And user navigates to create_room_reservation_page..........................passed
+And user enters the IDUser..................................................passed
+And user enters the IDHotel.................................................passed
+And user enters the price...................................................passed
+And user enters the date_start..............................................passed
+And user enters the date_end................................................passed
+And user enters the adult_amount............................................passed
+And user enters the children_amount.........................................passed
+And user enters the contact_name............................................passed
+And user enters the contact_phone...........................................passed
+And user enters the contact_email...........................................passed
+And user enters the notes...................................................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

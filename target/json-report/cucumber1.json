@@ -1,0 +1,1414 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "use is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9588804500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:01:44.501Z",
+        "line": 8,
+        "name": "TC01_paris_search",
+        "description": "",
+        "id": "finding-product-on-google-search;tc01-paris-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2700659700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user search for \"paris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65000900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the result has \"paris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1183940000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@capital_search"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "use is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6204926700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:01:58.134Z",
+        "line": 12,
+        "name": "TC02_london_search",
+        "description": "",
+        "id": "finding-product-on-google-search;tc02-london-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1849267400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user search for \"london\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"london\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49999300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify the result has \"london\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"london\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 823129700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@capital_search"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "use is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4618599700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:02:07.091Z",
+        "line": 16,
+        "name": "TC03_berlin_search",
+        "description": "",
+        "id": "finding-product-on-google-search;tc03-berlin-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1837002600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user search for \"berlin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"berlin\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33997500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify the result has \"berlin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"berlin\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1259996200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@capital_search"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "use is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5174725200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:02:14.856Z",
+        "line": 20,
+        "name": "TC04_ankara_search",
+        "description": "",
+        "id": "finding-product-on-google-search;tc04-ankara-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2055500700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user search for \"ankara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ankara\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97006600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verify the result has \"ankara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ankara\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1417725700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@capital_search"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "use is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4153024700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:02:23.617Z",
+        "line": 24,
+        "name": "TC05_baku_search",
+        "description": "",
+        "id": "finding-product-on-google-search;tc05-baku-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1741388300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user search for \"baku\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baku\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39999800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify the result has \"baku\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baku\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 881253500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@capital_search"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Finding product on google search",
+    "description": "",
+    "id": "finding-product-on-google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/day19_capital_search_longway_parametrized.feature",
+    "tags": [
+      {
+        "name": "@capital_search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 17
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5607302700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:02:30.491Z",
+        "line": 14,
+        "name": "searching_world_capitals",
+        "description": "",
+        "id": "multiple-google-search;searching-world-capitals;capitals;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1864722200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user search for \"paris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41995500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the result has \"paris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 842904000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline_1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3077722100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:02:38.865Z",
+        "line": 15,
+        "name": "searching_world_capitals",
+        "description": "",
+        "id": "multiple-google-search;searching-world-capitals;capitals;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2031869800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user search for \"london\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"london\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34998000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the result has \"london\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"london\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 845999400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline_1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3909991600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:02:44.872Z",
+        "line": 16,
+        "name": "searching_world_capitals",
+        "description": "",
+        "id": "multiple-google-search;searching-world-capitals;capitals;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1272383800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user search for \"berlin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"berlin\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51001500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the result has \"berlin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"berlin\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 939552500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline_1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3110022400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:02:51.058Z",
+        "line": 17,
+        "name": "searching_world_capitals",
+        "description": "",
+        "id": "multiple-google-search;searching-world-capitals;capitals;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1292939400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user search for \"ankara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ankara\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31000500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the result has \"ankara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ankara\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 867945500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline_1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is navigate to google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3360924300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the google page",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_in_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:02:56.366Z",
+        "line": 18,
+        "name": "searching_world_capitals",
+        "description": "",
+        "id": "multiple-google-search;searching-world-capitals;capitals;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1435601400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user search for \"baku\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baku\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48005500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the result has \"baku\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baku\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1054558700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline_1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Multiple_google_search",
+    "description": "",
+    "id": "multiple-google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/day19_capitol_search_short_scenario_outline.feature",
+    "tags": [
+      {
+        "name": "@scenario_outline_1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 21
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-29T11:03:02.304Z",
+        "line": 16,
+        "name": "TC_01_reservation_manager_profile",
+        "description": "",
+        "id": "manage-login-test;tc-01-reservation-manager-profile;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10967475800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143001900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters manager_id \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223998000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters manager_password \"Manager1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7168221300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138999500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify login \"manager\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1266978600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature_login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@manager_login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:03:22.231Z",
+        "line": 17,
+        "name": "TC_01_reservation_manager_profile",
+        "description": "",
+        "id": "manage-login-test;tc-01-reservation-manager-profile;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6874692000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132997500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters manager_id \"manager2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager2\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135002800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters manager_password \"Manager2!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager2!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7423997500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115018900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify login \"manager2\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager2\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1452977200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature_login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@manager_login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:03:38.375Z",
+        "line": 18,
+        "name": "TC_01_reservation_manager_profile",
+        "description": "",
+        "id": "manage-login-test;tc-01-reservation-manager-profile;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7650333300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 213997500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters manager_id \"manager3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager3\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278002400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters manager_password \"Manager3!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager3!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9345000100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104998400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify login \"manager3\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager3\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1248009000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature_login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@manager_login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T11:03:57.223Z",
+        "line": 30,
+        "name": "TC_02_reservation_admin_profile",
+        "description": "",
+        "id": "manage-login-test;tc-02-reservation-admin-profile;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6952996700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138001000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters manager_id \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166001100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters manager_password \"Techproed123!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techproed123!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9153005500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221995100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify login \"admin\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171001200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature_login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@admin_login"
+          }
+        ]
+      }
+    ],
+    "name": "Manage_login_test",
+    "description": "",
+    "id": "manage-login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/day19_manager_admin_login_shortway_feature_scenario_outline.feature",
+    "tags": [
+      {
+        "name": "@feature_login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 16
+        }
+      }
+    ]
+  }
+]
